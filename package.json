@@ -21,12 +21,15 @@
     "react"
   ],
   "dependencies": {
-    "react-bootstrap": "^0.30.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.0.0",
     "warning": "^2.1.0"
   },
   "peerDependencies": {
-    "react": ">=0.14.0",
-    "react-dom": ">=0.14.0"
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "devDependencies": {
     "babel": "^5.2.17",
