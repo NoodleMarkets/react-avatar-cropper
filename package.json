@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/webpack-dev-server --content-base example/ --hot",
-    "prepublish": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
+    "prepublish": "npm run minify",
+    "preinstall": "npm run minify",
+    "minify": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
     "demo": "./node_modules/.bin/webpack --config webpack.config.demo.js"
   },
   "author": "Justin Schiff",
@@ -28,6 +30,7 @@
     "warning": "^2.1.0"
   },
   "peerDependencies": {
+    "prop-types": ">=15.6.1",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
