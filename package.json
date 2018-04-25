@@ -23,16 +23,13 @@
     "react"
   ],
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.0.0",
     "react-bootstrap": "^0.32.0",
-    "react-dom": "^16.0.0",
     "warning": "^2.1.0"
   },
   "peerDependencies": {
     "prop-types": ">=15.6.1",
-    "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
+    "react": ">=15.6.2",
+    "react-dom": ">=15.6.2"
   },
   "devDependencies": {
     "babel": "^5.2.17",
